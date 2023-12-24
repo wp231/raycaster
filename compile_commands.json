@@ -1,0 +1,398 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/usr/local/include/SDL2",
+      "-D_REENTRANT",
+      "-c",
+      "-o",
+      "main_sdl.o",
+      "main_sdl.c"
+    ],
+    "directory": "/home/samuel/Desktop/raycaster",
+    "file": "/home/samuel/Desktop/raycaster/main_sdl.c",
+    "output": "/home/samuel/Desktop/raycaster/main_sdl.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/usr/local/include/SDL2",
+      "-D_REENTRANT",
+      "-c",
+      "-o",
+      "game.o",
+      "game.c"
+    ],
+    "directory": "/home/samuel/Desktop/raycaster",
+    "file": "/home/samuel/Desktop/raycaster/game.c",
+    "output": "/home/samuel/Desktop/raycaster/game.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/usr/local/include/SDL2",
+      "-D_REENTRANT",
+      "-c",
+      "-o",
+      "raycaster.o",
+      "raycaster.c"
+    ],
+    "directory": "/home/samuel/Desktop/raycaster",
+    "file": "/home/samuel/Desktop/raycaster/raycaster.c",
+    "output": "/home/samuel/Desktop/raycaster/raycaster.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/usr/local/include/SDL2",
+      "-D_REENTRANT",
+      "-c",
+      "-o",
+      "raycaster_fixed.o",
+      "raycaster_fixed.c"
+    ],
+    "directory": "/home/samuel/Desktop/raycaster",
+    "file": "/home/samuel/Desktop/raycaster/raycaster_fixed.c",
+    "output": "/home/samuel/Desktop/raycaster/raycaster_fixed.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/usr/local/include/SDL2",
+      "-D_REENTRANT",
+      "-c",
+      "-o",
+      "raycaster_float.o",
+      "raycaster_float.c"
+    ],
+    "directory": "/home/samuel/Desktop/raycaster",
+    "file": "/home/samuel/Desktop/raycaster/raycaster_float.c",
+    "output": "/home/samuel/Desktop/raycaster/raycaster_float.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/usr/local/include/SDL2",
+      "-D_REENTRANT",
+      "-c",
+      "-o",
+      "raycaster_data.o",
+      "raycaster_data.c"
+    ],
+    "directory": "/home/samuel/Desktop/raycaster",
+    "file": "/home/samuel/Desktop/raycaster/raycaster_data.c",
+    "output": "/home/samuel/Desktop/raycaster/raycaster_data.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/usr/local/include/SDL2",
+      "-D_REENTRANT",
+      "-c",
+      "-o",
+      "renderer.o",
+      "renderer.c"
+    ],
+    "directory": "/home/samuel/Desktop/raycaster",
+    "file": "/home/samuel/Desktop/raycaster/renderer.c",
+    "output": "/home/samuel/Desktop/raycaster/renderer.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-std=c++11",
+      "-O2",
+      "-Wall",
+      "-g",
+      "-I",
+      ".",
+      "-o",
+      "precalculator",
+      "tools/precalculator.cpp"
+    ],
+    "directory": "/home/samuel/Desktop/raycaster",
+    "file": "/home/samuel/Desktop/raycaster/tools/precalculator.cpp",
+    "output": "/home/samuel/Desktop/raycaster/precalculator"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-I/usr/local/include/SDL2",
+      "-D_REENTRANT",
+      "-c",
+      "-o",
+      "raycaster_tables.o",
+      "raycaster_tables.c"
+    ],
+    "directory": "/home/samuel/Desktop/raycaster",
+    "file": "/home/samuel/Desktop/raycaster/raycaster_tables.c",
+    "output": "/home/samuel/Desktop/raycaster/raycaster_tables.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/arm-none-eabi-gcc",
+      "-mcpu=arm1176jzf-s",
+      "-fpic",
+      "-ffreestanding",
+      "-std=gnu11",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-c",
+      "-o",
+      "main_baremetal.o",
+      "main_baremetal.c"
+    ],
+    "directory": "/home/samuel/Desktop/raycaster",
+    "file": "/home/samuel/Desktop/raycaster/main_baremetal.c",
+    "output": "/home/samuel/Desktop/raycaster/main_baremetal.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/arm-none-eabi-gcc",
+      "-mcpu=arm1176jzf-s",
+      "-fpic",
+      "-ffreestanding",
+      "-std=gnu11",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-c",
+      "-o",
+      "uart.o",
+      "uart.c"
+    ],
+    "directory": "/home/samuel/Desktop/raycaster",
+    "file": "/home/samuel/Desktop/raycaster/uart.c",
+    "output": "/home/samuel/Desktop/raycaster/uart.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/arm-none-eabi-gcc",
+      "-mcpu=arm1176jzf-s",
+      "-fpic",
+      "-ffreestanding",
+      "-std=gnu11",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-c",
+      "-o",
+      "mem.o",
+      "mem.c"
+    ],
+    "directory": "/home/samuel/Desktop/raycaster",
+    "file": "/home/samuel/Desktop/raycaster/mem.c",
+    "output": "/home/samuel/Desktop/raycaster/mem.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/arm-none-eabi-gcc",
+      "-mcpu=arm1176jzf-s",
+      "-fpic",
+      "-ffreestanding",
+      "-std=gnu11",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-c",
+      "-o",
+      "string.o",
+      "string.c"
+    ],
+    "directory": "/home/samuel/Desktop/raycaster",
+    "file": "/home/samuel/Desktop/raycaster/string.c",
+    "output": "/home/samuel/Desktop/raycaster/string.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/arm-none-eabi-gcc",
+      "-mcpu=arm1176jzf-s",
+      "-fpic",
+      "-ffreestanding",
+      "-std=gnu11",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-c",
+      "-o",
+      "stdlib.o",
+      "stdlib.c"
+    ],
+    "directory": "/home/samuel/Desktop/raycaster",
+    "file": "/home/samuel/Desktop/raycaster/stdlib.c",
+    "output": "/home/samuel/Desktop/raycaster/stdlib.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/arm-none-eabi-gcc",
+      "-mcpu=arm1176jzf-s",
+      "-fpic",
+      "-ffreestanding",
+      "-std=gnu11",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-c",
+      "-o",
+      "mailbox.o",
+      "mailbox.c"
+    ],
+    "directory": "/home/samuel/Desktop/raycaster",
+    "file": "/home/samuel/Desktop/raycaster/mailbox.c",
+    "output": "/home/samuel/Desktop/raycaster/mailbox.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/arm-none-eabi-gcc",
+      "-mcpu=arm1176jzf-s",
+      "-fpic",
+      "-ffreestanding",
+      "-std=gnu11",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-c",
+      "-o",
+      "timer.o",
+      "timer.c"
+    ],
+    "directory": "/home/samuel/Desktop/raycaster",
+    "file": "/home/samuel/Desktop/raycaster/timer.c",
+    "output": "/home/samuel/Desktop/raycaster/timer.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/arm-none-eabi-gcc",
+      "-mcpu=arm1176jzf-s",
+      "-fpic",
+      "-ffreestanding",
+      "-std=gnu11",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-c",
+      "-o",
+      "fb.o",
+      "fb.c"
+    ],
+    "directory": "/home/samuel/Desktop/raycaster",
+    "file": "/home/samuel/Desktop/raycaster/fb.c",
+    "output": "/home/samuel/Desktop/raycaster/fb.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/arm-none-eabi-gcc",
+      "-mcpu=arm1176jzf-s",
+      "-fpic",
+      "-ffreestanding",
+      "-std=gnu11",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-c",
+      "-o",
+      "game_baremetal.o",
+      "game.c"
+    ],
+    "directory": "/home/samuel/Desktop/raycaster",
+    "file": "/home/samuel/Desktop/raycaster/game.c",
+    "output": "/home/samuel/Desktop/raycaster/game_baremetal.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/arm-none-eabi-gcc",
+      "-mcpu=arm1176jzf-s",
+      "-fpic",
+      "-ffreestanding",
+      "-std=gnu11",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-c",
+      "-o",
+      "raycaster_baremetal.o",
+      "raycaster.c"
+    ],
+    "directory": "/home/samuel/Desktop/raycaster",
+    "file": "/home/samuel/Desktop/raycaster/raycaster.c",
+    "output": "/home/samuel/Desktop/raycaster/raycaster_baremetal.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/arm-none-eabi-gcc",
+      "-mcpu=arm1176jzf-s",
+      "-fpic",
+      "-ffreestanding",
+      "-std=gnu11",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-c",
+      "-o",
+      "raycaster_fixed_baremetal.o",
+      "raycaster_fixed.c"
+    ],
+    "directory": "/home/samuel/Desktop/raycaster",
+    "file": "/home/samuel/Desktop/raycaster/raycaster_fixed.c",
+    "output": "/home/samuel/Desktop/raycaster/raycaster_fixed_baremetal.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/arm-none-eabi-gcc",
+      "-mcpu=arm1176jzf-s",
+      "-fpic",
+      "-ffreestanding",
+      "-std=gnu11",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-c",
+      "-o",
+      "raycaster_data_baremetal.o",
+      "raycaster_data.c"
+    ],
+    "directory": "/home/samuel/Desktop/raycaster",
+    "file": "/home/samuel/Desktop/raycaster/raycaster_data.c",
+    "output": "/home/samuel/Desktop/raycaster/raycaster_data_baremetal.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/arm-none-eabi-gcc",
+      "-mcpu=arm1176jzf-s",
+      "-fpic",
+      "-ffreestanding",
+      "-std=gnu11",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-c",
+      "-o",
+      "renderer_baremetal.o",
+      "renderer.c"
+    ],
+    "directory": "/home/samuel/Desktop/raycaster",
+    "file": "/home/samuel/Desktop/raycaster/renderer.c",
+    "output": "/home/samuel/Desktop/raycaster/renderer_baremetal.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/arm-none-eabi-gcc",
+      "-mcpu=arm1176jzf-s",
+      "-fpic",
+      "-ffreestanding",
+      "-std=gnu11",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-c",
+      "-o",
+      "raycaster_tables_baremetal.o",
+      "raycaster_tables.c"
+    ],
+    "directory": "/home/samuel/Desktop/raycaster",
+    "file": "/home/samuel/Desktop/raycaster/raycaster_tables.c",
+    "output": "/home/samuel/Desktop/raycaster/raycaster_tables_baremetal.o"
+  }
+]
